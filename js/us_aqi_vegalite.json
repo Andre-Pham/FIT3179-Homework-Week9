@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Air Quality",
+    "title": "Mean AQI Across CBSAs, 2021",
     "width": 800,
     "height": 400,
     "projection": {
@@ -83,20 +83,12 @@
                     {
                         "field": "properties.GEOID",
                         "type": "nominal",
-                        "title": "State"
-                    },
-                    {
-                        "field": "properties.GEOID",
-                        "type": "nominal",
                         "title": "CBSA"
                     },
                     {
                         "field": "AQI",
-                        "type": "quantitative"
-                    },
-                    {
-                        "field": "Year",
-                        "type": "nominal"
+                        "type": "quantitative",
+                        "format": ".2f"
                     }
                 ]
             }
@@ -116,5 +108,12 @@
                 "strokeOpacity": 0.3
             }
         }
-    ]
+    ],
+    "config": {
+        "style": {
+            "cell": {
+                "stroke": "transparent"
+            }
+        }
+    }
 }

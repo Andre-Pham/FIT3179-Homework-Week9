@@ -1,8 +1,31 @@
-#symbol_map {
-	top:100px;
-	bottom: 100px; 
-	left: 100px;
-	right: 100px;
-	/*height: 1000px;
-	width: 800px;*/
+h1 {
+    font-family: 'Roboto Black', sans-serif;
+	font-size: 45px;
+	color: #868e96;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color:#495057;
+	padding-left: 15px;
+}
+
+.body {
+	max-width: 60ch;
+}
+
+.center {
+	margin: auto;
+	width: 50%;
+}
+
+.centertext {
+	text-align: center;
+}
+
+.padding {
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
