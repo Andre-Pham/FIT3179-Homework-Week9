@@ -14,7 +14,7 @@
 
 ### Screen Capture
 
-![vis](C:\Users\andre\Desktop\Repositories\FIT3179\FIT3179-Homework-Week9\vis.PNG)
+<img src="C:\Users\andre\Desktop\Repositories\FIT3179\FIT3179-Homework-Week9\vis.PNG" alt="vis" style="zoom: 50%;" /> 
 
 ### Domain
 
