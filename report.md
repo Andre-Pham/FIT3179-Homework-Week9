@@ -39,8 +39,10 @@ Python was used in conjunction with the pandas module to process and export the 
 
 ### Idiom Justification
 
-The choropleth idiom was selected for the map visualisation.
+The unclassed choropleth idiom was selected for the map visualisation.
 
 Choropleths are required to be used with data that is attached to enumeration units, standardised, and supports application on a continuous statistical surface. These three conditions are met by the data being visualised. The AQI measurements are recorded and grouped within specific CBSAs and the AQI measurements are tied to their respective CBSA and hence are attached to enumeration units. The data has been standardised by calculating the mean of measurements within each CBSA, so that the data isn't skewed by measurement count. And finally, the data is applied on a continuous statistical surface, hence AQI can be measured at any location, continuously.
 
 The choropleth idiom provides a basis for encoding a quantitative attribute (the AQI) to regions on a geographic map. This allows quick and intuitive identification for which geographical areas have the best and worst air quality. It also provides a basis of grouping measurements into areas to provide better readability - if a dot map was to be used, each measurement would have to be plotted onto the map, hence cluttering the map, and reducing the amount of useful information by not being able to provide the AQI of areas, and rather forcing the user to navigate through the sea of measurements and their unique AQI values. Hence the choropleth idiom provides storytelling through being mapped to areas.
+
+The unclassed choropleth was selected due to the nature of AQI being a continuous value - grouping AQI values is abstract and doesn't create for fair comparison on a visualised map. For example, if one location had an AQI of 49, and an adjacent location had an AQI of 50, it would be misleading to classify these as different colours despite having virtually the same air quality. Hence making the choropleth be unclassed provides clarity in what is being shown.
