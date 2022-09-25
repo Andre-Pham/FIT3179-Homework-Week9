@@ -17,7 +17,7 @@
             },
             "mark": {
                 "type": "geoshape",
-                "fill": "#f1f3f5",
+                "fill": "#E7DFC7",
                 "stroke": "white"
             }
         },
@@ -34,20 +34,6 @@
                 "stroke": "gray",
                 "fillOpacity": 0,
                 "strokeOpacity": 0.2
-            }
-        },
-        {
-            "data": {
-                "url": "spatial/cbsa_us_2014_ex_hi_ak.topojson",
-                "format": {
-                    "type": "topojson",
-                    "feature": "cbsa_2014_us_ex_hi_ak"
-                }
-            },
-            "mark": {
-                "type": "geoshape",
-                "fill": "#dee2e6",
-                "stroke": "white"
             }
         },
         {
