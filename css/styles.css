@@ -1,7 +1,9 @@
 h1 {
-    font-family: 'Roboto Black', sans-serif;
+    font-family: 'Roboto', sans-serif;
+	font-weight: 900;
 	font-size: 45px;
 	color: #868e96;
+	padding-left: 55px;
 }
 
 p {
@@ -12,11 +14,6 @@ p {
 
 .body {
 	max-width: 60ch;
-}
-
-.center {
-	margin: auto;
-	width: 50%;
 }
 
 .centertext {
