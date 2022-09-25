@@ -23,6 +23,21 @@
         },
         {
             "data": {
+                "url": "spatial/ne_110m_graticules_5.topojson",
+                "format": {
+                    "type": "topojson",
+                    "feature": "ne_110m_graticules_5"
+                }
+            },
+            "mark": {
+                "type": "geoshape",
+                "stroke": "gray",
+                "fillOpacity": 0,
+                "strokeOpacity": 0.2
+            }
+        },
+        {
+            "data": {
                 "url": "spatial/cbsa_us_2014_ex_hi_ak.topojson",
                 "format": {
                     "type": "topojson",
@@ -91,21 +106,6 @@
                         "format": ".2f"
                     }
                 ]
-            }
-        },
-        {
-            "data": {
-                "url": "spatial/ne_110m_graticules_5.topojson",
-                "format": {
-                    "type": "topojson",
-                    "feature": "ne_110m_graticules_5"
-                }
-            },
-            "mark": {
-                "type": "geoshape",
-                "stroke": "gray",
-                "fillOpacity": 0,
-                "strokeOpacity": 0.3
             }
         }
     ],
